@@ -1,0 +1,32 @@
+{
+  "dataset": "COX2",
+  "mode": "struct",
+  "seed": 303,
+  "BA": 0.7422777330110126,
+  "params": 23780,
+  "epochs": 16,
+  "split_seed": 20261101,
+  "folds": 3,
+  "h": 24,
+  "seconds": 9.075348854064941,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.7299903567984571,
+      "best_epoch": 16,
+      "validation_loss": 0.46001458168029785
+    },
+    {
+      "fold": 1,
+      "BA": 0.7907425265188043,
+      "best_epoch": 16,
+      "validation_loss": 0.44128110791955677
+    },
+    {
+      "fold": 2,
+      "BA": 0.7063684978123481,
+      "best_epoch": 16,
+      "validation_loss": 0.5208173488315783
+    }
+  ]
+}

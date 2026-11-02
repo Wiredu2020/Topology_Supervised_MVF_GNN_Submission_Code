@@ -1,0 +1,32 @@
+{
+  "dataset": "PTC_MR",
+  "model": "struct_learned",
+  "seed": 202,
+  "split_seed": 20261051,
+  "ba": 0.5756578947368421,
+  "nparams_total": 38868,
+  "nparams_active_approx": 38868,
+  "epochs": 20,
+  "folds": [
+    {
+      "fold": 0,
+      "ba": 0.5594362745098039,
+      "epoch": 14,
+      "test_n": 115
+    },
+    {
+      "fold": 1,
+      "ba": 0.5791973039215687,
+      "epoch": 15,
+      "test_n": 115
+    },
+    {
+      "fold": 2,
+      "ba": 0.5865625,
+      "epoch": 1,
+      "test_n": 114
+    }
+  ],
+  "seconds": 4.700154066085815,
+  "n_graphs": 344
+}

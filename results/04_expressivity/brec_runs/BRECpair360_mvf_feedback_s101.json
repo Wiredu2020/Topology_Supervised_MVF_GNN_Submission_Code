@@ -1,0 +1,26 @@
+{
+  "dataset": "BRECpair360",
+  "mode": "mvf_feedback",
+  "seed": 101,
+  "BA": 0.5,
+  "params": 27382,
+  "epochs": 16,
+  "split_seed": 20261027,
+  "folds": 2,
+  "h": 24,
+  "seconds": 17.30155086517334,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 7,
+      "validation_loss": 1.1035418510437012
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 3,
+      "validation_loss": 0.8502320647239685
+    }
+  ]
+}

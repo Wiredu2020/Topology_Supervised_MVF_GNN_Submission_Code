@@ -1,0 +1,22 @@
+{
+  "model": "poset_shuffle",
+  "seed": 303,
+  "BA": 0.7130674187483212,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.6812921890067503,
+      "best_epoch": 9
+    },
+    {
+      "fold": 1,
+      "BA": 0.7449903038138332,
+      "best_epoch": 7
+    }
+  ],
+  "params": 40732,
+  "seconds": 27.733866930007935,
+  "epochs_max": 30,
+  "split_seed": 20261030,
+  "n": 467
+}

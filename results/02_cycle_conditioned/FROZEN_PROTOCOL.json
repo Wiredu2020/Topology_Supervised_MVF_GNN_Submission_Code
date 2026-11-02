@@ -1,0 +1,37 @@
+{
+  "datasets": [
+    "BZR",
+    "PROTEINS",
+    "ENZYMES"
+  ],
+  "models": [
+    "gine_cycle",
+    "poset_cycle",
+    "poset_shuffle",
+    "poset_uniform",
+    "poset_softonly"
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "folds": 3,
+  "split_seed": 20261027,
+  "max_epochs": 36,
+  "patience": 10,
+  "val_fraction": 0.18,
+  "h": {
+    "gine_cycle": 40,
+    "poset_cycle": 24,
+    "poset_shuffle": 24,
+    "poset_uniform": 24,
+    "poset_softonly": 24
+  },
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "node_scaling": "fit_only",
+  "cycle_features": "random-walk returns P^k k3..10, factor16; SAME for all models",
+  "metric": "pooled out-of-fold balanced accuracy, matched splits and seeds",
+  "notes": "Use no model selection from test predictions. Inspect first all model-family results. Replication across unseen graph families is still development because model defined following CSL/COX2/BREC."
+}

@@ -1,0 +1,38 @@
+{
+  "model": "poset_uniform",
+  "seed": 101,
+  "BA": 0.5550274967750696,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.5748528174936922,
+      "best_epoch": 9
+    },
+    {
+      "fold": 1,
+      "BA": 0.5470984020185029,
+      "best_epoch": 4
+    },
+    {
+      "fold": 2,
+      "BA": 0.5769554247266611,
+      "best_epoch": 2
+    },
+    {
+      "fold": 3,
+      "BA": 0.5119047619047619,
+      "best_epoch": 9
+    },
+    {
+      "fold": 4,
+      "BA": 0.5622822299651568,
+      "best_epoch": 9
+    }
+  ],
+  "params": 39580,
+  "seconds": 26.469772815704346,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 349,
+  "dataset": "PTC_FM"
+}

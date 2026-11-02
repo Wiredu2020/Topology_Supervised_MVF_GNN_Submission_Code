@@ -1,0 +1,37 @@
+{
+  "dataset": "SYNCYCLES",
+  "seed": 202,
+  "epochs": 22,
+  "split_seed": 20261101,
+  "n": 180,
+  "folds": [
+    {
+      "fold": 0,
+      "selected_epoch": 15,
+      "aligned_BA": 1.0
+    },
+    {
+      "fold": 1,
+      "selected_epoch": 21,
+      "aligned_BA": 1.0
+    },
+    {
+      "fold": 2,
+      "selected_epoch": 22,
+      "aligned_BA": 1.0
+    }
+  ],
+  "BA": {
+    "aligned": 1.0,
+    "off": 0.5,
+    "shuffled": 1.0
+  },
+  "prediction_change_rate": {
+    "off": 0.5,
+    "shuffled": 0.0
+  },
+  "mean_abs_p1_difference": {
+    "off": 0.3136593997478485,
+    "shuffled": 0.0
+  }
+}

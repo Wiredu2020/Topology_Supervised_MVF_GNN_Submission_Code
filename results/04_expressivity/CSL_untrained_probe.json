@@ -1,0 +1,22 @@
+{
+  "gine": {
+    "max_abs_logit_spread": 2.8165712356567383,
+    "max_adjacent_diff": 2.8165712356567383
+  },
+  "struct": {
+    "max_abs_logit_spread": 2.929784059524536,
+    "max_adjacent_diff": 2.929784059524536
+  },
+  "mvf_feedback": {
+    "max_abs_logit_spread": 2.418898582458496,
+    "max_adjacent_diff": 2.418898582458496
+  },
+  "mvf_shuffle": {
+    "max_abs_logit_spread": 2.382136344909668,
+    "max_adjacent_diff": 2.382136344909668
+  },
+  "mvf_uniform": {
+    "max_abs_logit_spread": 2.418992519378662,
+    "max_adjacent_diff": 2.418992519378662
+  }
+}

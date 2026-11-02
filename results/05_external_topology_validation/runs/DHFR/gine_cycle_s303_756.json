@@ -1,0 +1,38 @@
+{
+  "model": "gine_cycle",
+  "seed": 303,
+  "BA": 0.7759439685282548,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.8244942591580098,
+      "best_epoch": 5
+    },
+    {
+      "fold": 1,
+      "BA": 0.7926492262343405,
+      "best_epoch": 13
+    },
+    {
+      "fold": 2,
+      "BA": 0.771370670596905,
+      "best_epoch": 11
+    },
+    {
+      "fold": 3,
+      "BA": 0.7665806927044951,
+      "best_epoch": 9
+    },
+    {
+      "fold": 4,
+      "BA": 0.724207811348563,
+      "best_epoch": 21
+    }
+  ],
+  "params": 42724,
+  "seconds": 46.54795265197754,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 756,
+  "dataset": "DHFR"
+}

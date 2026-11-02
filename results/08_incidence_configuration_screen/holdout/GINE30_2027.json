@@ -1,0 +1,8 @@
+{
+  "model": "GINE30",
+  "seed": 2027,
+  "test_BA": 0.4897435897435897,
+  "best_epoch": 2,
+  "parameters": 21544,
+  "runtime_seconds": 0.7552940845489502
+}

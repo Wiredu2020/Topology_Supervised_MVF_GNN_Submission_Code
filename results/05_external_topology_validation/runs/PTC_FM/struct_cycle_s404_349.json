@@ -1,0 +1,38 @@
+{
+  "model": "struct_cycle",
+  "seed": 404,
+  "BA": 0.5429764410346934,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.5109335576114382,
+      "best_epoch": 6
+    },
+    {
+      "fold": 1,
+      "BA": 0.6114381833473508,
+      "best_epoch": 11
+    },
+    {
+      "fold": 2,
+      "BA": 0.5496215306980656,
+      "best_epoch": 4
+    },
+    {
+      "fold": 3,
+      "BA": 0.4642857142857143,
+      "best_epoch": 6
+    },
+    {
+      "fold": 4,
+      "BA": 0.5840592334494774,
+      "best_epoch": 9
+    }
+  ],
+  "params": 23780,
+  "seconds": 12.275452136993408,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 349,
+  "dataset": "PTC_FM"
+}

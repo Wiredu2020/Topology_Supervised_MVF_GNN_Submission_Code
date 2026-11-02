@@ -1,0 +1,38 @@
+{
+  "model": "struct_cycle",
+  "seed": 404,
+  "BA": 0.8088238538181551,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.8253143794423182,
+      "best_epoch": 18
+    },
+    {
+      "fold": 1,
+      "BA": 0.8294030950626381,
+      "best_epoch": 7
+    },
+    {
+      "fold": 2,
+      "BA": 0.8156779661016949,
+      "best_epoch": 20
+    },
+    {
+      "fold": 3,
+      "BA": 0.8124539425202653,
+      "best_epoch": 12
+    },
+    {
+      "fold": 4,
+      "BA": 0.7611459100957996,
+      "best_epoch": 10
+    }
+  ],
+  "params": 26228,
+  "seconds": 75.41623950004578,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 756,
+  "dataset": "DHFR"
+}

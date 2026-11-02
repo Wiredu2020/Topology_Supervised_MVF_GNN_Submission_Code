@@ -1,0 +1,44 @@
+{
+  "dataset": "CSL",
+  "mode": "mvf_shuffle",
+  "seed": 101,
+  "BA": 0.19999999999999998,
+  "params": 27774,
+  "epochs": 20,
+  "split_seed": 20261027,
+  "folds": 5,
+  "h": 24,
+  "seconds": 24.22908926010132,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.2,
+      "best_epoch": 18,
+      "validation_loss": 2.000011682510376
+    },
+    {
+      "fold": 1,
+      "BA": 0.2,
+      "best_epoch": 20,
+      "validation_loss": 2.0184788703918457
+    },
+    {
+      "fold": 2,
+      "BA": 0.2,
+      "best_epoch": 14,
+      "validation_loss": 2.013500452041626
+    },
+    {
+      "fold": 3,
+      "BA": 0.2,
+      "best_epoch": 11,
+      "validation_loss": 2.018667221069336
+    },
+    {
+      "fold": 4,
+      "BA": 0.2,
+      "best_epoch": 16,
+      "validation_loss": 1.8979647159576416
+    }
+  ]
+}

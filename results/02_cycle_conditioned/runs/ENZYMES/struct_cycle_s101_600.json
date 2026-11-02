@@ -1,0 +1,27 @@
+{
+  "model": "struct_cycle",
+  "seed": 101,
+  "BA": 0.5,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.47459893048128343,
+      "best_epoch": 17
+    },
+    {
+      "fold": 1,
+      "BA": 0.5046048722519311,
+      "best_epoch": 12
+    },
+    {
+      "fold": 2,
+      "BA": 0.5197563874034462,
+      "best_epoch": 18
+    }
+  ],
+  "params": 23904,
+  "seconds": 42.23517036437988,
+  "epochs_max": 36,
+  "split_seed": 20261027,
+  "n": 600
+}

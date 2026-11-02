@@ -1,0 +1,27 @@
+{
+  "model": "poset_softonly",
+  "seed": 101,
+  "BA": 0.7363700351935646,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.7366515837104073,
+      "best_epoch": 12
+    },
+    {
+      "fold": 1,
+      "BA": 0.7376018099547511,
+      "best_epoch": 3
+    },
+    {
+      "fold": 2,
+      "BA": 0.7348567119155354,
+      "best_epoch": 8
+    }
+  ],
+  "params": 38284,
+  "seconds": 71.21320605278015,
+  "epochs_max": 36,
+  "split_seed": 20261027,
+  "n": 1113
+}

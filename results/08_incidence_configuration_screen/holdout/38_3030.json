@@ -1,0 +1,8 @@
+{
+  "model": "38",
+  "seed": 3030,
+  "test_BA": 0.5128205128205128,
+  "best_epoch": 3,
+  "parameters": 22628,
+  "runtime_seconds": 0.7019369602203369
+}

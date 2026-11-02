@@ -1,0 +1,13 @@
+dataset,comparison,seeds,paired_mean_pp,paired_sd_pp,individual_pp
+BZR,poset_cycle minus gine_cycle,3,5.143,5.314,7.649;8.741;-0.960
+BZR,poset_cycle minus poset_shuffle,3,1.067,2.623,-0.425;4.095;-0.470
+BZR,poset_cycle minus poset_uniform,3,0.544,3.5,-1.072;4.560;-1.855
+BZR,poset_cycle minus poset_softonly,3,1.931,1.758,1.679;3.802;0.313
+ENZYMES,poset_cycle minus gine_cycle,3,-4.944,4.674,-9.000;0.167;-6.000
+ENZYMES,poset_cycle minus poset_shuffle,2,-0.917,0.825,-0.333;-1.500
+ENZYMES,poset_cycle minus poset_uniform,2,2.167,0.236,2.333;2.000
+ENZYMES,poset_cycle minus poset_softonly,2,-0.5,1.179,-1.333;0.333
+PROTEINS,poset_cycle minus gine_cycle,1,-0.447,,-0.447
+PROTEINS,poset_cycle minus poset_shuffle,1,-0.702,,-0.702
+PROTEINS,poset_cycle minus poset_uniform,1,0.345,,0.345
+PROTEINS,poset_cycle minus poset_softonly,1,-0.722,,-0.722

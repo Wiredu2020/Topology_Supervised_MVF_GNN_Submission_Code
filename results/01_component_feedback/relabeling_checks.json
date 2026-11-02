@@ -1,0 +1,18 @@
+{
+  "PTC_MR": {
+    "dataset": "PTC_MR",
+    "permutation_max_abs_logit": 1.7881393432617188e-07,
+    "partition_example_cells": 9,
+    "partition_example_multivectors": 4,
+    "poset_height": 2,
+    "block_only_scorer_gradient_abs_sum": 0.8796281814575195
+  },
+  "COX2": {
+    "dataset": "COX2",
+    "permutation_max_abs_logit": 1.1920928955078125e-07,
+    "partition_example_cells": 9,
+    "partition_example_multivectors": 4,
+    "poset_height": 2,
+    "block_only_scorer_gradient_abs_sum": 1.3611408472061157
+  }
+}

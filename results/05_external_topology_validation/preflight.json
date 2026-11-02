@@ -1,0 +1,31 @@
+{
+  "gine_cycle": {
+    "endpoint_invariance_max_abs": 1.4901161193847656e-07,
+    "trainable_parameters": 42724,
+    "gradient_parameters": 30,
+    "vertex_relabel_invariance_max_abs": 1.1920928955078125e-07
+  },
+  "poset_cycle": {
+    "endpoint_invariance_max_abs": 8.940696716308594e-08,
+    "trainable_parameters": 42028,
+    "gradient_parameters": 98,
+    "vertex_relabel_invariance_max_abs": 1.1920928955078125e-07
+  },
+  "poset_shuffle": {
+    "endpoint_invariance_max_abs": 1.7881393432617188e-07,
+    "trainable_parameters": 42028,
+    "gradient_parameters": 98
+  },
+  "poset_uniform": {
+    "endpoint_invariance_max_abs": 1.1920928955078125e-07,
+    "trainable_parameters": 42028,
+    "gradient_parameters": 90,
+    "vertex_relabel_invariance_max_abs": 2.086162567138672e-07
+  },
+  "struct_cycle": {
+    "endpoint_invariance_max_abs": 1.1920928955078125e-07,
+    "trainable_parameters": 26228,
+    "gradient_parameters": 46,
+    "vertex_relabel_invariance_max_abs": 2.682209014892578e-07
+  }
+}

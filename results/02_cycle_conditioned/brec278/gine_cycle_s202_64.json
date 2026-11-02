@@ -1,0 +1,22 @@
+{
+  "model": "gine_cycle",
+  "seed": 202,
+  "BA": 0.5,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 4
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 27
+    }
+  ],
+  "params": 14068,
+  "seconds": 2.8896636962890625,
+  "epochs_max": 100,
+  "split_seed": 20261029,
+  "n": 64
+}

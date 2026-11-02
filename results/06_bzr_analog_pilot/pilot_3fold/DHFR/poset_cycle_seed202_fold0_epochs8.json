@@ -1,0 +1,20 @@
+{
+  "dataset": "DHFR",
+  "model": "poset_cycle",
+  "seed": 202,
+  "fold": 0,
+  "max_epochs": 8,
+  "n_train": 413,
+  "n_val": 91,
+  "n_test": 252,
+  "balanced_accuracy": 0.7416512059369202,
+  "accuracy": 0.7817460317460317,
+  "best_epoch": 8,
+  "fit_seconds": 7.32,
+  "parameters": 42028,
+  "class_counts": [
+    98,
+    154
+  ],
+  "label_features": "feature construction deterministic and label independent"
+}

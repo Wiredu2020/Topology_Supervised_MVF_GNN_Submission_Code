@@ -1,0 +1,20 @@
+{
+  "dataset": "NCI109",
+  "model": "gine_cycle",
+  "seed": 101,
+  "fold": 0,
+  "max_epochs": 8,
+  "n_train": 2255,
+  "n_val": 496,
+  "n_test": 1376,
+  "balanced_accuracy": 0.7616544022107712,
+  "accuracy": 0.7609011627906976,
+  "best_epoch": 8,
+  "fit_seconds": 8.98,
+  "parameters": 40564,
+  "class_counts": [
+    683,
+    693
+  ],
+  "label_features": "feature construction deterministic and label independent"
+}

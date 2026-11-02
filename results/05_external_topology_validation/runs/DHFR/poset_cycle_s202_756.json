@@ -1,0 +1,38 @@
+{
+  "model": "poset_cycle",
+  "seed": 202,
+  "BA": 0.812143828817236,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.8352469473300528,
+      "best_epoch": 11
+    },
+    {
+      "fold": 1,
+      "BA": 0.8609064112011791,
+      "best_epoch": 17
+    },
+    {
+      "fold": 2,
+      "BA": 0.7822402358142962,
+      "best_epoch": 20
+    },
+    {
+      "fold": 3,
+      "BA": 0.8046241709653648,
+      "best_epoch": 9
+    },
+    {
+      "fold": 4,
+      "BA": 0.7774502579218865,
+      "best_epoch": 29
+    }
+  ],
+  "params": 42028,
+  "seconds": 221.031268119812,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 756,
+  "dataset": "DHFR"
+}

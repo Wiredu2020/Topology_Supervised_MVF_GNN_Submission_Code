@@ -1,0 +1,46 @@
+{
+  "dataset": "DHFR",
+  "mode": "event",
+  "seed": 303,
+  "folds": 3,
+  "epochs": 35,
+  "patience": 8,
+  "split_seed": 20261121,
+  "aux_weight": 0.2,
+  "node_budget": 1100,
+  "preprocess": "event_target_hidden_v1",
+  "protocol_hash": "85a8b1c59cb05973",
+  "complete": true,
+  "balanced_accuracy": 0.7602191257031509,
+  "aux_edge_auc": 0.9948611936503289,
+  "seconds": 113.13772890200016,
+  "parameters": 52736,
+  "fold_records": [
+    {
+      "fold": 0,
+      "balanced_accuracy": 0.7411873840445269,
+      "best_epoch": 17,
+      "validation_objective": 0.4237068894800249
+    },
+    {
+      "fold": 1,
+      "balanced_accuracy": 0.775974025974026,
+      "best_epoch": 9,
+      "validation_objective": 0.5539067164882199
+    },
+    {
+      "fold": 2,
+      "balanced_accuracy": 0.7638146167557932,
+      "best_epoch": 21,
+      "validation_objective": 0.31286431505129886
+    }
+  ],
+  "same_checkpoint_interventions": {
+    "shuffled": {
+      "changed_fraction": 0.010582010582010581
+    },
+    "uniform": {
+      "changed_fraction": 0.03571428571428571
+    }
+  }
+}

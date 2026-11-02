@@ -1,0 +1,38 @@
+{
+  "dataset": "DHFR",
+  "mode": "old_poset",
+  "seed": 101,
+  "folds": 3,
+  "epochs": 35,
+  "patience": 8,
+  "split_seed": 20261121,
+  "aux_weight": 0.2,
+  "node_budget": 1100,
+  "preprocess": "event_target_hidden_v1",
+  "protocol_hash": "13a475ae42a46c40",
+  "complete": true,
+  "balanced_accuracy": 0.7368248832677672,
+  "aux_edge_auc": null,
+  "seconds": 65.94968719799999,
+  "parameters": 42028,
+  "fold_records": [
+    {
+      "fold": 0,
+      "balanced_accuracy": 0.7147495361781075,
+      "best_epoch": 7,
+      "validation_objective": 0.4844373628333375
+    },
+    {
+      "fold": 1,
+      "balanced_accuracy": 0.7467532467532467,
+      "best_epoch": 7,
+      "validation_objective": 0.5173563138469235
+    },
+    {
+      "fold": 2,
+      "balanced_accuracy": 0.7492572786690433,
+      "best_epoch": 11,
+      "validation_objective": 0.48412803503183216
+    }
+  ]
+}

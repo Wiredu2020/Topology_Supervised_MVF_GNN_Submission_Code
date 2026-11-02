@@ -1,0 +1,8 @@
+{
+  "model": "GINE24",
+  "seed": 4040,
+  "test_BA": 0.5102564102564102,
+  "best_epoch": 3,
+  "parameters": 14356,
+  "runtime_seconds": 0.659947395324707
+}

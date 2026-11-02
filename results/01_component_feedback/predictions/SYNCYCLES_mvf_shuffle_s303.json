@@ -1,0 +1,32 @@
+{
+  "dataset": "SYNCYCLES",
+  "mode": "mvf_shuffle",
+  "seed": 303,
+  "BA": 0.8333333333333333,
+  "params": 27382,
+  "epochs": 22,
+  "split_seed": 20261101,
+  "folds": 3,
+  "h": 24,
+  "seconds": 6.242365121841431,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 1.0,
+      "best_epoch": 22,
+      "validation_loss": 0.2907557785511017
+    },
+    {
+      "fold": 1,
+      "BA": 1.0,
+      "best_epoch": 22,
+      "validation_loss": 0.11923778802156448
+    },
+    {
+      "fold": 2,
+      "BA": 0.5,
+      "best_epoch": 1,
+      "validation_loss": 0.6963319182395935
+    }
+  ]
+}

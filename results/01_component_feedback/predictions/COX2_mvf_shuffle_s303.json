@@ -1,0 +1,32 @@
+{
+  "dataset": "COX2",
+  "mode": "mvf_shuffle",
+  "seed": 303,
+  "BA": 0.722092398603277,
+  "params": 29974,
+  "epochs": 16,
+  "split_seed": 20261101,
+  "folds": 3,
+  "h": 24,
+  "seconds": 23.307501077651978,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.6892478302796529,
+      "best_epoch": 15,
+      "validation_loss": 0.48842957615852356
+    },
+    {
+      "fold": 1,
+      "BA": 0.7709739633558341,
+      "best_epoch": 16,
+      "validation_loss": 0.49552485772541593
+    },
+    {
+      "fold": 2,
+      "BA": 0.7063684978123481,
+      "best_epoch": 16,
+      "validation_loss": 0.4981738328933716
+    }
+  ]
+}

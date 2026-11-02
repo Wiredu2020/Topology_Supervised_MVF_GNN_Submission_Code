@@ -1,0 +1,32 @@
+{
+  "dataset": "PTC_MR",
+  "mode": "mvf_readout",
+  "seed": 202,
+  "BA": 0.5374177631578947,
+  "params": 28823,
+  "epochs": 16,
+  "split_seed": 20261101,
+  "folds": 3,
+  "h": 24,
+  "seconds": 5.999513387680054,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5727634803921569,
+      "best_epoch": 1,
+      "validation_loss": 0.6950292587280273
+    },
+    {
+      "fold": 1,
+      "BA": 0.5027573529411764,
+      "best_epoch": 16,
+      "validation_loss": 0.6282023787498474
+    },
+    {
+      "fold": 2,
+      "BA": 0.5387500000000001,
+      "best_epoch": 14,
+      "validation_loss": 0.663193941116333
+    }
+  ]
+}

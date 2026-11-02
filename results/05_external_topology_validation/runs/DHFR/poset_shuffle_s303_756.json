@@ -1,0 +1,38 @@
+{
+  "model": "poset_shuffle",
+  "seed": 303,
+  "BA": 0.7935696165300195,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.8306907235283397,
+      "best_epoch": 5
+    },
+    {
+      "fold": 1,
+      "BA": 0.7865696389093588,
+      "best_epoch": 7
+    },
+    {
+      "fold": 2,
+      "BA": 0.8215733235077376,
+      "best_epoch": 13
+    },
+    {
+      "fold": 3,
+      "BA": 0.771370670596905,
+      "best_epoch": 21
+    },
+    {
+      "fold": 4,
+      "BA": 0.7574613117170228,
+      "best_epoch": 17
+    }
+  ],
+  "params": 42028,
+  "seconds": 236.33047938346863,
+  "epochs_max": 60,
+  "split_seed": 20261117,
+  "n": 756,
+  "dataset": "DHFR"
+}

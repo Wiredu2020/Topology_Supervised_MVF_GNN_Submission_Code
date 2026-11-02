@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+networkx>=3.0
+torch>=2.2
+matplotlib>=3.7
+# Optional for BACE SMILES conversion: rdkit>=2023.9

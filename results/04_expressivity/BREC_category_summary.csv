@@ -1,0 +1,8 @@
+category,diff_n,diff_m,diff_beta0,diff_beta1,diff_triangles,diff_degree_hist,diff_edge_triangle_hist,diff_bridge_count,pairs
+4Vertex,0,0,0,0,0,0,0,0,20
+Basic,0,0,0,0,51,0,59,0,60
+CFI,0,0,3,3,0,0,0,0,100
+DistanceRegular,0,0,0,0,0,0,0,0,20
+Extension,0,0,0,0,4,0,51,2,100
+Regular,0,0,0,0,41,0,46,1,100
+ALL,0,0,3,3,96,0,156,3,400

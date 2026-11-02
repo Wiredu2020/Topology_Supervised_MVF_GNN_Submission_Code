@@ -1,0 +1,22 @@
+{
+  "model": "hard_cycle",
+  "seed": 202,
+  "BA": 0.75,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 1
+    },
+    {
+      "fold": 1,
+      "BA": 1.0,
+      "best_epoch": 27
+    }
+  ],
+  "params": 28534,
+  "seconds": 7.859377384185791,
+  "epochs_max": 100,
+  "split_seed": 20261029,
+  "n": 64
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "PTC_MR",
+  "model": "gine41",
+  "seed": 202,
+  "split_seed": 20261051,
+  "ba": 0.5596217105263158,
+  "nparams_total": 38462,
+  "nparams_active_approx": 38462,
+  "epochs": 20,
+  "folds": [
+    {
+      "fold": 0,
+      "ba": 0.5848651960784313,
+      "epoch": 15,
+      "test_n": 115
+    },
+    {
+      "fold": 1,
+      "ba": 0.5378370098039216,
+      "epoch": 8,
+      "test_n": 115
+    },
+    {
+      "fold": 2,
+      "ba": 0.556875,
+      "epoch": 4,
+      "test_n": 114
+    }
+  ],
+  "seconds": 3.330379009246826,
+  "n_graphs": 344
+}

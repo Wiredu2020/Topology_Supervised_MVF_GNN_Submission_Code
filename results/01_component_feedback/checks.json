@@ -1,0 +1,11 @@
+{
+  "score_gradient_abs_sum": 0.10634389519691467,
+  "cell_gradient_abs_sum": 0.6165728569030762,
+  "block_gradient_abs_sum": 16.902952194213867,
+  "edge_order_invariance_max_abs": 1.4901161193847656e-07,
+  "sample_last_layer": {
+    "blocks_per_graph": 39.5,
+    "blocks_per_cell": 0.512987012987013,
+    "incidence_fraction": 0.47468354430379744
+  }
+}

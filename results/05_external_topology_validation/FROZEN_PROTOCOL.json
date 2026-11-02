@@ -1,0 +1,36 @@
+{
+  "preset": "exhaustive",
+  "train_datasets": [
+    "DHFR",
+    "PTC_FM",
+    "PTC_MM"
+  ],
+  "selection": "prespecified DHFR, PTC_FM, PTC_MM; no supervised-score selection",
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "folds": 5,
+  "epochs": 60,
+  "patience": 12,
+  "modes": [
+    "gine_cycle",
+    "poset_cycle",
+    "poset_shuffle",
+    "poset_uniform",
+    "struct_cycle"
+  ],
+  "split_seed": 20261117,
+  "h": {
+    "gine_cycle": 40,
+    "others": 24
+  },
+  "optimizer": "AdamW, learning rate 0.001, weight decay 1e-4",
+  "batch_node_budget": 1100,
+  "shared_cycle_features": "P^k returns k3..10 times16, symmetric u/v edge intensities for vertex-relabel consistency",
+  "hyperparameter_selection": "train-fold validation only (18%)",
+  "caveat": "Cycle-aware inputs and MVF architecture frozen before current datasets; do not pool different presets"
+}

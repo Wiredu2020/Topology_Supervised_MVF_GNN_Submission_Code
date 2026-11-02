@@ -1,0 +1,38 @@
+{
+  "dataset": "COX2",
+  "mode": "event_uniform",
+  "seed": 303,
+  "folds": 3,
+  "epochs": 35,
+  "patience": 8,
+  "split_seed": 20261121,
+  "aux_weight": 0.2,
+  "node_budget": 1100,
+  "preprocess": "event_target_hidden_v1",
+  "protocol_hash": "799e70483af24677",
+  "complete": true,
+  "balanced_accuracy": 0.6703330647327425,
+  "aux_edge_auc": 0.9911630656866358,
+  "seconds": 70.80126809499961,
+  "parameters": 51440,
+  "fold_records": [
+    {
+      "fold": 0,
+      "balanced_accuracy": 0.5636451301832208,
+      "best_epoch": 4,
+      "validation_objective": 0.6572580145938056
+    },
+    {
+      "fold": 1,
+      "balanced_accuracy": 0.6851494696239151,
+      "best_epoch": 26,
+      "validation_objective": 0.388373253600938
+    },
+    {
+      "fold": 2,
+      "balanced_accuracy": 0.7620320855614974,
+      "best_epoch": 19,
+      "validation_objective": 0.4330575251788424
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mismatched_attr_order": 0,
+  "isolates": 5,
+  "max_n": 620,
+  "max_m": 1049,
+  "self_loops": 0,
+  "duplicates": 0,
+  "n": 1113,
+  "counts": {
+    "0": 663,
+    "1": 450
+  },
+  "sha256": "2da8de15284b88edabca2888ce5444d62f364ed41159260977088c4e53d4d848"
+}

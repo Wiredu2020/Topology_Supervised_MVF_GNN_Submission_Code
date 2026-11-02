@@ -1,0 +1,31 @@
+{
+  "datasets": [
+    "DHFR",
+    "BACE",
+    "NCI109"
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "models": {
+    "gine_cycle": 40,
+    "poset_cycle": 24,
+    "poset_shuffle": 24,
+    "poset_uniform": 24,
+    "poset_softonly": 24
+  },
+  "folds": 3,
+  "split_seed": 20261027,
+  "max_epochs": 36,
+  "patience": 10,
+  "batch_node_budget": 1100,
+  "optimizer": "AdamW(lr=0.001,wd=0.0001)",
+  "cycle_features": "random walk length 3..10 factor16 for all architectures",
+  "metric": "pooled out-of-fold balanced accuracy",
+  "status": "protocol saved before fitting any new dataset",
+  "BACE_atom_features": "atomic number onehot + atom degree + aromatic/ring/formal charge/H count/hybridization",
+  "BACE_bond_features": "type, conjugation, ring, stereo",
+  "notes": "Datasets chosen based on topology vs BZR, no adjustment based on labels. New data not untouched after model selection. Include all negative results."
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "BRECpair297",
+  "mode": "gine",
+  "seed": 101,
+  "BA": 0.5,
+  "params": 12916,
+  "epochs": 100,
+  "split_seed": 20261027,
+  "folds": 2,
+  "h": 24,
+  "seconds": 0.946873664855957,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 7,
+      "validation_loss": 0.7939002513885498
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 1,
+      "validation_loss": 0.6955175399780273
+    }
+  ]
+}

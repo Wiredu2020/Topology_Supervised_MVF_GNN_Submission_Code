@@ -1,0 +1,32 @@
+{
+  "dataset": "COX2",
+  "model": "gine41",
+  "seed": 101,
+  "split_seed": 20261051,
+  "ba": 0.7076013967230728,
+  "nparams_total": 40430,
+  "nparams_active_approx": 40430,
+  "epochs": 20,
+  "folds": [
+    {
+      "fold": 0,
+      "ba": 0.6984088717454195,
+      "epoch": 13,
+      "test_n": 156
+    },
+    {
+      "fold": 1,
+      "ba": 0.742526518804243,
+      "epoch": 7,
+      "test_n": 156
+    },
+    {
+      "fold": 2,
+      "ba": 0.6812105007292173,
+      "epoch": 6,
+      "test_n": 155
+    }
+  ],
+  "seconds": 6.161918640136719,
+  "n_graphs": 467
+}

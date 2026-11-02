@@ -1,0 +1,22 @@
+{
+  "model": "poset_adaptive",
+  "seed": 202,
+  "BA": 0.5,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 14
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 7
+    }
+  ],
+  "params": 38140,
+  "seconds": 6.558143854141235,
+  "epochs_max": 100,
+  "split_seed": 20261029,
+  "n": 64
+}

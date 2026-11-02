@@ -1,0 +1,37 @@
+[
+  {
+    "pair": 0,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 60,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 160,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 260,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 360,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 380,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  },
+  {
+    "pair": 399,
+    "even_isomorphic": true,
+    "odd_isomorphic": true
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "dataset": "COX2",
+  "seed": 303,
+  "epochs": 16,
+  "split_seed": 20261101,
+  "n": 467,
+  "folds": [
+    {
+      "fold": 0,
+      "selected_epoch": 15,
+      "aligned_BA": 0.6697203471552555
+    },
+    {
+      "fold": 1,
+      "selected_epoch": 16,
+      "aligned_BA": 0.7825458052073289
+    },
+    {
+      "fold": 2,
+      "selected_epoch": 15,
+      "aligned_BA": 0.6985901798736023
+    }
+  ],
+  "BA": {
+    "aligned": 0.7169755573462262,
+    "off": 0.6644910018802042,
+    "shuffled": 0.7156056943325275
+  },
+  "prediction_change_rate": {
+    "off": 0.14989293361884368,
+    "shuffled": 0.006423982869379015
+  },
+  "mean_abs_p1_difference": {
+    "off": 0.11130482703447342,
+    "shuffled": 0.006451188586652279
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "BRECpair297",
+  "mode": "mvf_uniform",
+  "seed": 303,
+  "BA": 0.25,
+  "params": 27382,
+  "epochs": 100,
+  "split_seed": 20261027,
+  "folds": 2,
+  "h": 24,
+  "seconds": 2.248303174972534,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 12,
+      "validation_loss": 0.6667383313179016
+    },
+    {
+      "fold": 1,
+      "BA": 0.0,
+      "best_epoch": 2,
+      "validation_loss": 0.7005050778388977
+    }
+  ]
+}

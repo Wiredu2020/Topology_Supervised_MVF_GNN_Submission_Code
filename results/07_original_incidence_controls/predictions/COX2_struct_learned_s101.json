@@ -1,0 +1,32 @@
+{
+  "dataset": "COX2",
+  "model": "struct_learned",
+  "seed": 101,
+  "split_seed": 20261051,
+  "ba": 0.6797072253558958,
+  "nparams_total": 40404,
+  "nparams_active_approx": 40404,
+  "epochs": 20,
+  "folds": [
+    {
+      "fold": 0,
+      "ba": 0.6950337512054001,
+      "epoch": 8,
+      "test_n": 156
+    },
+    {
+      "fold": 1,
+      "ba": 0.6559787849566056,
+      "epoch": 9,
+      "test_n": 156
+    },
+    {
+      "fold": 2,
+      "ba": 0.6880165289256198,
+      "epoch": 8,
+      "test_n": 155
+    }
+  ],
+  "seconds": 23.061784505844116,
+  "n_graphs": 467
+}

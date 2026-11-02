@@ -1,0 +1,8 @@
+{
+  "model": "ORIG_STRUCT24",
+  "seed": 3030,
+  "test_BA": 0.5410256410256411,
+  "best_epoch": 5,
+  "parameters": 22628,
+  "runtime_seconds": 1.023207664489746
+}

@@ -1,0 +1,46 @@
+{
+  "dataset": "BZR",
+  "mode": "event",
+  "seed": 101,
+  "folds": 3,
+  "epochs": 35,
+  "patience": 8,
+  "split_seed": 20261121,
+  "aux_weight": 0.2,
+  "node_budget": 1100,
+  "preprocess": "event_target_hidden_v1",
+  "protocol_hash": "8ae66e2d8622212d",
+  "complete": true,
+  "balanced_accuracy": 0.7246664722606984,
+  "aux_edge_auc": 0.9862706492368557,
+  "seconds": 44.88914779099997,
+  "parameters": 52736,
+  "fold_records": [
+    {
+      "fold": 0,
+      "balanced_accuracy": 0.6994325767690254,
+      "best_epoch": 7,
+      "validation_objective": 0.41473070030309717
+    },
+    {
+      "fold": 1,
+      "balanced_accuracy": 0.7473975276512688,
+      "best_epoch": 11,
+      "validation_objective": 0.49436109284965357
+    },
+    {
+      "fold": 2,
+      "balanced_accuracy": 0.7256018217306441,
+      "best_epoch": 11,
+      "validation_objective": 0.21875624753990952
+    }
+  ],
+  "same_checkpoint_interventions": {
+    "shuffled": {
+      "changed_fraction": 0.0
+    },
+    "uniform": {
+      "changed_fraction": 0.03950617283950617
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "DHFR",
+  "model": "gine_cycle",
+  "seed": 101,
+  "fold": 0,
+  "max_epochs": 8,
+  "n_train": 413,
+  "n_val": 91,
+  "n_test": 252,
+  "balanced_accuracy": 0.771799628942486,
+  "accuracy": 0.7936507936507936,
+  "best_epoch": 5,
+  "fit_seconds": 1.81,
+  "parameters": 42724,
+  "class_counts": [
+    98,
+    154
+  ],
+  "label_features": "feature construction deterministic and label independent"
+}

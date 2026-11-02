@@ -1,0 +1,20 @@
+{
+  "dataset": "BACE",
+  "model": "gine_cycle",
+  "seed": 202,
+  "fold": 0,
+  "max_epochs": 8,
+  "n_train": 826,
+  "n_val": 182,
+  "n_test": 505,
+  "balanced_accuracy": 0.8050763105507631,
+  "accuracy": 0.803960396039604,
+  "best_epoch": 8,
+  "fit_seconds": 3.47,
+  "parameters": 39244,
+  "class_counts": [
+    274,
+    231
+  ],
+  "label_features": "feature construction deterministic and label independent"
+}

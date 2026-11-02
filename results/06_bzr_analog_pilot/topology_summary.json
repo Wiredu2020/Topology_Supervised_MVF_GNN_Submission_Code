@@ -1,0 +1,310 @@
+{
+  "BZR": {
+    "graphs": 405,
+    "classes": {
+      "0": 319,
+      "1": 86
+    },
+    "features": {
+      "nodes": 69,
+      "edges": 12
+    },
+    "source_info": {
+      "source": "BZR (1).zip",
+      "edge_sort_was_nontrivial_graphs": 0,
+      "duplicate_graphs": 0,
+      "selfloop_graphs": 0
+    },
+    "n": {
+      "mean": 35.7506,
+      "median": 35.0,
+      "q10": 28.0,
+      "q90": 46.0
+    },
+    "m": {
+      "mean": 38.358,
+      "median": 37.0,
+      "q10": 30.0,
+      "q90": 49.0
+    },
+    "beta0": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "beta1": {
+      "mean": 3.6074,
+      "median": 4.0,
+      "q10": 3.0,
+      "q90": 5.0
+    },
+    "mean_degree": {
+      "mean": 2.1467,
+      "median": 2.1333,
+      "q10": 2.1053,
+      "q90": 2.2286
+    },
+    "bridge_fraction": {
+      "mean": 0.491,
+      "median": 0.5,
+      "q10": 0.3696,
+      "q90": 0.5918
+    },
+    "triangle_count": {
+      "mean": 0.0074,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "clustering": {
+      "mean": 0.0001,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "largest_cc_frac": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "edge_density": {
+      "mean": 0.0649,
+      "median": 0.0642,
+      "q10": 0.0473,
+      "q90": 0.0794
+    }
+  },
+  "DHFR": {
+    "graphs": 756,
+    "classes": {
+      "1": 461,
+      "0": 295
+    },
+    "features": {
+      "nodes": 69,
+      "edges": 12
+    },
+    "source_info": {
+      "source": "DHFR (1).zip",
+      "edge_sort_was_nontrivial_graphs": 0,
+      "duplicate_graphs": 0,
+      "selfloop_graphs": 0
+    },
+    "n": {
+      "mean": 42.4272,
+      "median": 42.0,
+      "q10": 32.0,
+      "q90": 54.0
+    },
+    "m": {
+      "mean": 44.545,
+      "median": 45.0,
+      "q10": 33.0,
+      "q90": 56.0
+    },
+    "beta0": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "beta1": {
+      "mean": 3.1177,
+      "median": 3.0,
+      "q10": 2.0,
+      "q90": 4.0
+    },
+    "mean_degree": {
+      "mean": 2.1024,
+      "median": 2.0976,
+      "q10": 2.0672,
+      "q90": 2.15
+    },
+    "bridge_fraction": {
+      "mean": 0.5988,
+      "median": 0.6047,
+      "q10": 0.4839,
+      "q90": 0.7018
+    },
+    "triangle_count": {
+      "mean": 0.0,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "clustering": {
+      "mean": 0.0,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "largest_cc_frac": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "edge_density": {
+      "mean": 0.0537,
+      "median": 0.0511,
+      "q10": 0.0391,
+      "q90": 0.0685
+    }
+  },
+  "BACE": {
+    "graphs": 1513,
+    "classes": {
+      "1": 691,
+      "0": 822
+    },
+    "features": {
+      "nodes": 33,
+      "edges": 19
+    },
+    "source_info": {
+      "invalid_smiles": [],
+      "source": "bace.csv",
+      "atom_feature_dim": 20,
+      "edge_feature_dim": 7
+    },
+    "n": {
+      "mean": 34.0892,
+      "median": 33.0,
+      "q10": 25.0,
+      "q90": 45.0
+    },
+    "m": {
+      "mean": 36.8592,
+      "median": 36.0,
+      "q10": 27.0,
+      "q90": 48.0
+    },
+    "beta0": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "beta1": {
+      "mean": 3.77,
+      "median": 4.0,
+      "q10": 3.0,
+      "q90": 5.0
+    },
+    "mean_degree": {
+      "mean": 2.1686,
+      "median": 2.1622,
+      "q10": 2.1038,
+      "q90": 2.2424
+    },
+    "bridge_fraction": {
+      "mean": 0.4032,
+      "median": 0.4103,
+      "q10": 0.2222,
+      "q90": 0.5636
+    },
+    "triangle_count": {
+      "mean": 0.0991,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "clustering": {
+      "mean": 0.0065,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "largest_cc_frac": {
+      "mean": 1.0,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 1.0
+    },
+    "edge_density": {
+      "mean": 0.0704,
+      "median": 0.0685,
+      "q10": 0.0485,
+      "q90": 0.0933
+    }
+  },
+  "NCI109": {
+    "graphs": 4127,
+    "classes": {
+      "0": 2048,
+      "1": 2079
+    },
+    "features": {
+      "nodes": 51,
+      "edges": 12
+    },
+    "source_info": {
+      "source": "NCI109 (2).zip",
+      "edge_sort_was_nontrivial_graphs": 0,
+      "duplicate_graphs": 0,
+      "selfloop_graphs": 0
+    },
+    "n": {
+      "mean": 29.6811,
+      "median": 26.0,
+      "q10": 17.0,
+      "q90": 46.0
+    },
+    "m": {
+      "mean": 32.1308,
+      "median": 29.0,
+      "q10": 18.0,
+      "q90": 50.0
+    },
+    "beta0": {
+      "mean": 1.1951,
+      "median": 1.0,
+      "q10": 1.0,
+      "q90": 2.0
+    },
+    "beta1": {
+      "mean": 3.6448,
+      "median": 3.0,
+      "q10": 2.0,
+      "q90": 6.0
+    },
+    "mean_degree": {
+      "mean": 2.1564,
+      "median": 2.1714,
+      "q10": 2.0,
+      "q90": 2.2778
+    },
+    "bridge_fraction": {
+      "mean": 0.3857,
+      "median": 0.3636,
+      "q10": 0.1765,
+      "q90": 0.6116
+    },
+    "triangle_count": {
+      "mean": 0.0443,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "clustering": {
+      "mean": 0.0031,
+      "median": 0.0,
+      "q10": 0.0,
+      "q90": 0.0
+    },
+    "largest_cc_frac": {
+      "mean": 0.9759,
+      "median": 1.0,
+      "q10": 0.9643,
+      "q90": 1.0
+    },
+    "edge_density": {
+      "mean": 0.0894,
+      "median": 0.0855,
+      "q10": 0.0485,
+      "q90": 0.1324
+    }
+  }
+}

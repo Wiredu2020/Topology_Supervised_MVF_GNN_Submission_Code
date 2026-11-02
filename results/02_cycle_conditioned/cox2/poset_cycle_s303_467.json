@@ -1,0 +1,22 @@
+{
+  "model": "poset_cycle",
+  "seed": 303,
+  "BA": 0.724603814128391,
+  "folds": [
+    {
+      "fold": 0,
+      "BA": 0.7124718739954998,
+      "best_epoch": 13
+    },
+    {
+      "fold": 1,
+      "BA": 0.736748545572075,
+      "best_epoch": 7
+    }
+  ],
+  "params": 40732,
+  "seconds": 18.890655517578125,
+  "epochs_max": 30,
+  "split_seed": 20261030,
+  "n": 467
+}

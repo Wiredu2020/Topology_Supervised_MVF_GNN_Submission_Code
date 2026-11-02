@@ -1,0 +1,32 @@
+{
+  "dataset": "SYNCYCLES",
+  "mode": "struct",
+  "seed": 303,
+  "BA": 0.5,
+  "params": 21188,
+  "epochs": 22,
+  "split_seed": 20261101,
+  "folds": 3,
+  "h": 24,
+  "seconds": 1.8030824661254883,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 10,
+      "validation_loss": 0.6931602954864502
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 5,
+      "validation_loss": 0.6931471824645996
+    },
+    {
+      "fold": 2,
+      "BA": 0.5,
+      "best_epoch": 7,
+      "validation_loss": 0.7040979862213135
+    }
+  ]
+}

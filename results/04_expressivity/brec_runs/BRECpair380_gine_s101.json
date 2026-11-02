@@ -1,0 +1,26 @@
+{
+  "dataset": "BRECpair380",
+  "mode": "gine",
+  "seed": 101,
+  "BA": 0.5,
+  "params": 12916,
+  "epochs": 16,
+  "split_seed": 20261027,
+  "folds": 2,
+  "h": 24,
+  "seconds": 1.438326358795166,
+  "fold_records": [
+    {
+      "fold": 0,
+      "BA": 0.5,
+      "best_epoch": 9,
+      "validation_loss": 0.6936623454093933
+    },
+    {
+      "fold": 1,
+      "BA": 0.5,
+      "best_epoch": 1,
+      "validation_loss": 0.7178053855895996
+    }
+  ]
+}

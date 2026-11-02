@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "config": [
+      "mutual",
+      "sigmoid",
+      "none",
+      "residual"
+    ],
+    "max_scorer_gradient": 0.1739831268787384,
+    "max_edge_orientation_difference": 1.1920928955078125e-07
+  },
+  {
+    "id": 38,
+    "config": [
+      "mutual",
+      "degree_sigmoid",
+      "cycle_bridge",
+      "residual"
+    ],
+    "max_scorer_gradient": 0.19308650493621826,
+    "max_edge_orientation_difference": 8.940696716308594e-08
+  },
+  {
+    "id": 78,
+    "config": [
+      "union",
+      "power",
+      "cycle_bridge",
+      "residual"
+    ],
+    "max_scorer_gradient": 0.048985205590724945,
+    "max_edge_orientation_difference": 5.960464477539063e-08
+  },
+  {
+    "id": 101,
+    "config": [
+      "source",
+      "sigmoid",
+      "none",
+      "centered"
+    ],
+    "max_scorer_gradient": 0.008476212620735168,
+    "max_edge_orientation_difference": 1.043081283569336e-07
+  },
+  {
+    "id": 138,
+    "config": [
+      "source",
+      "degree_sigmoid",
+      "cycle_bridge",
+      "residual"
+    ],
+    "max_scorer_gradient": 0.08023341745138168,
+    "max_edge_orientation_difference": 1.043081283569336e-07
+  },
+  {
+    "id": 169,
+    "config": [
+      "mean",
+      "softmax",
+      "cycle_bridge",
+      "centered"
+    ],
+    "max_scorer_gradient": 0.018293360248208046,
+    "max_edge_orientation_difference": 5.960464477539063e-08
+  },
+  {
+    "id": 188,
+    "config": [
+      "mean",
+      "degree_sigmoid",
+      "cycle_bridge",
+      "residual"
+    ],
+    "max_scorer_gradient": 0.0777025818824768,
+    "max_edge_orientation_difference": 1.4901161193847656e-07
+  },
+  {
+    "id": 199,
+    "config": [
+      "mean",
+      "centered_sigmoid",
+      "cycle_bridge",
+      "centered"
+    ],
+    "max_scorer_gradient": 0.013162471354007721,
+    "max_edge_orientation_difference": 1.1920928955078125e-07
+  }
+]
